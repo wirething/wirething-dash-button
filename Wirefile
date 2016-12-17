@@ -1,0 +1,15 @@
+{
+  "name": "Amazon Dash",
+  "description": "Wirething module for interacting with Amazon Dash buttons.",
+  "author": "Nathan Kunicki <me@nathankunicki.com>",
+  "main": "./index.js",
+  "devices": [
+    {
+      "name": "Dash Button",
+      "type": "dashbutton",
+      "outputs": [
+        {"name": "Press", "event": "press"}
+      ]
+    }
+  ]
+}
