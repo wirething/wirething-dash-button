@@ -24,7 +24,7 @@ class DashButtonDevice extends EventEmitter {
 
     emitPress () {
         if (this.connected) {
-            debugLog(`Dash Button "${mac}" pressed`);
+            debugLog(`Dash Button "${this.uuid}" pressed`);
             this.emit("press");
         }
     }
